@@ -1,0 +1,130 @@
+.navbar-brand img{
+    border-radius: 300px
+
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    box-shadow: 0px 1px 2px white;
+    border-radius: 50px;
+}
+.container-fluid{
+    background: url(photo.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.container-fluid h1{
+    color: white;
+    font-size: 100px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    filter: drop-shadow(1px 1px 2px white);
+    position: relative;
+    top: 5%;
+    left: 2%;
+    display: inline;
+}
+.container-fluid p{
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    display: inline;
+
+    
+}
+#p{
+    color: wheat;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  display: inline;
+
+}
+.text-center{
+    background: url(js.jpg);
+    background-size: cover;
+    height: 300vh;
+}
+#img{
+    opacity: 0.5;
+    filter:grayscale(100%);
+}
+#img:hover{
+    opacity: 1;
+    height: 230px;
+    width: 230px;
+    filter: drop-shadow(0px 0px 3px white) grayscale(0%);
+}
+.mb-3 label{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 30%;
+   
+}
+h2{
+   color: white;
+    font-size: 40px;
+    filter: drop-shadow(0px 0px 2px white);
+}
+
+#s{
+  color: white;
+  font-size: 30px;
+}
+#j{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    opacity: 0.7;
+}
+#j:hover{
+    border-radius: 70px;
+    opacity: 1;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    opacity: 0.5;
+}
+.fa-brands:hover{
+    opacity: 1;
+}
+#bar{
+    color: white;
+    font-size: 20px;
+    opacity: 0.6;
+}
+#bar:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 0px black;
+    border-radius: 0px;
+}
+@media(max-width:740px){
+    .text-center{
+        height: 600vh;
+    }
+    .container-fluid h1{
+        font-size: 70px;
+    }
+    .container-fluid p{
+        font-size: 28px;
+    }
+}
